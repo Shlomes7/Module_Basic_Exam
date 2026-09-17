@@ -1,4 +1,9 @@
 def camel_to_hyphen(text: str) -> str:
+    '''
+    adds "-" before a big letter and makes the letter small
+    :param text: text to be worked upon
+    :return: the text with "-" before a big letter and the whole text as small letters
+    '''
     l1 = list(text)
     place_count = 0
     for letter in l1:
