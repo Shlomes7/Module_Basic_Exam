@@ -1,4 +1,9 @@
 def valid_ranks():
+    '''
+    the user inputs a number, the function makes sure that it's a number between 1-5 and
+    that at least 10 numbers were entered
+    :return: A list of valid ranks
+    '''
     valid_numbers = list()
     valid_numbers_count = 0
     while True:
